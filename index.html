@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
+        <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+        <title>AdiayX Bot / Home</title>
+    </head>
+    <body>
+        <nav>
+          <div class="logo">
+            <i class="bx bx-menu menu-icon"></i>
+            <span class="logo-name">AdiayX Bot</span>
+          </div>
+          <div class="sidebar">
+            <div class="logo">
+              <i class="bx bx-menu menu-icon"></i>
+              <span class="logo-name">AdiayX Bot</span>
+            </div>
+    
+            <div class="sidebar-content">
+                <ul class="lists">
+                    <li class="list">
+                        <a href="./index.html" class="nav-link">
+                            <i class="bx bx-home-alt icon"></i>
+                            <span class="link">Home</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="./sites/changelog/changelog.html" class="nav-link">
+                            <i class="bx bx-file icon"></i>
+                            <span class="link">Changelog</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="./sites/announcements/announcements.html" class="nav-link">
+                            <i class="bx bx-bell icon"></i>
+                            <span class="link">Announcements</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    
+    <section class="overlay"></section>
+
+
+
+    <div id="main">
+        <center>
+            <t class="title">AdiayX Bot</t><br>
+            <t class="description">A Bot that pushes up your Server</t><br><br>
+            <a class="a_inv_btn" target="_blank" href="https://canary.discord.com/api/oauth2/authorize?client_id=1018268379552952331&permissions=8&scope=bot"><button class="inv_btn">Invite</button></a><br><a class="a_sup_btn" target="_blank" href=""><button class="sup_btn">Support</button></a><a class="a_cmd_btn" href="#Commands"><button class="cmd_btn">Commands</button></a>
+        </center>
+    </div>
+
+
+
+
+    <center>
+        <div id="Commands">
+                        <p class="cmdheader">These are my Commands:</p>
+                        <t><u>Moderation Commands</u></t><br>
+                        <t>timeout</t><br>
+                        <t>kick</t><br>
+                        <t>ban</t><br>
+                        <t>unban</t><br><br>
+                        <t><u>Utility Commands</u></t><br>
+                        <t>help</t><br>
+                        <t>ping</t><br>
+                        <t>botinfo</t><br>
+                        <t>support</t><br>
+                        <t>echo</t><br>
+                        <t>embed</t><br>
+                        <t>userinfo</t><br>
+                        <t>bugreport</t><br>
+                        <t>changelog</t><br>
+                        <t>setup</t><br><br>
+        </div>
+    </center>
+
+
+
+
+
+    </body>
+</html>
+
+<script> 
+const navBar = document.querySelector("nav"), menuBtns = document.querySelectorAll(".menu-icon"), overlay = document.querySelector(".overlay"); 
+    menuBtns.forEach((menuBtn) => { menuBtn.addEventListener("click", () => { navBar.classList.toggle("open"); }); }); 
+    overlay.addEventListener("click", () => { navBar.classList.remove("open"); }); 
+</script>

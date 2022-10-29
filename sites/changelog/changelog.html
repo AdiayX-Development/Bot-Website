@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
+        <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+        <title>AdiayX Bot / Changelog</title>
+    </head>
+    <body>
+        <nav>
+          <div class="logo">
+            <i class="bx bx-menu menu-icon"></i>
+            <span class="logo-name">Changelog</span>
+          </div>
+          <div class="sidebar">
+            <div class="logo">
+              <i class="bx bx-menu menu-icon"></i>
+              <span class="logo-name">AdiayX Bot</span>
+            </div>
+    
+            <div class="sidebar-content">
+                <ul class="lists">
+                    <li class="list">
+                        <a href="./../../index.html" class="nav-link">
+                            <i class="bx bx-home-alt icon"></i>
+                            <span class="link">Home</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="./changelog.html" class="nav-link">
+                            <i class="bx bx-file icon"></i>
+                            <span class="link">Changelog</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="./../announcements/announcements.html" class="nav-link">
+                            <i class="bx bx-bell icon"></i>
+                            <span class="link">Announcements</span>
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </nav>
+    
+    <section class="overlay"></section>
+    <section id="main">
+        <div class="log">
+            <t class="logname">DevBuild #4 <t class="date"><u>29.10.2022</u></t></t><br><t class="description">Fixed a Bug in Ticket System</t>
+        </div>
+        <div class="log">
+            <t class="logname">DevBuild #3 <t class="date"><u>29.10.2022</u></t></t><br><t class="description">Fixed an Error in Welcome Setup System</t>
+        </div>
+        <div class="log">
+            <t class="logname">DevBuild #2 <t class="date"><u>28.10.2022</u></t></t><br><t class="description">Fixed a Bug in Autorole Setup System</t>
+        </div>
+        <div class="log">
+            <t class="logname">DevBuild #1 <t class="date"><u>28.10.2022</u></t></t><br><t class="description">Bot Release</t>
+        </div><br>
+    </section>
+    <t class="impress"><a href="./../impress/impress.html" class="link" style="color: white;">Impress</a> - ©2022 | AdiayX</t>
+    </body>
+</html>
+
+<script> 
+const navBar = document.querySelector("nav"), menuBtns = document.querySelectorAll(".menu-icon"), overlay = document.querySelector(".overlay"); 
+    menuBtns.forEach((menuBtn) => { menuBtn.addEventListener("click", () => { navBar.classList.toggle("open"); }); }); 
+    overlay.addEventListener("click", () => { navBar.classList.remove("open"); }); 
+</script>
