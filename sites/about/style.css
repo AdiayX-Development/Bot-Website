@@ -188,3 +188,12 @@ nav.open ~ .overlay {
         font-size: 22px;
     }
 }
+
+
+
+.impress {
+    color: white;
+    padding: 10px;
+    position: absolute;
+    bottom: 0px;
+}
