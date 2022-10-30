@@ -124,11 +124,11 @@ nav.open ~ .overlay {
     margin: 15px;
 }
 .card {
-    width: 70%;
+    width: 90%;
     margin: 10px;
     background-color:#2f68c2;
     padding: 10px;
-    height: 100px;
+    height: 110px;
     position: relative;
     border-radius: 10px;
 }
@@ -180,23 +180,11 @@ nav.open ~ .overlay {
         margin: 10px;
         background-color:#2f68c2;
         padding: 10px;
-        height: 200px;
+        height: 230px;
         position: relative;
         border-radius: 10px;
     }
     .header {
         font-size: 22px;
     }
-}
-
-
-
-
-
-
-.impress {
-    color: white;
-    padding: 10px;
-    position: absolute;
-    bottom: 0px;
 }
