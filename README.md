@@ -1,3 +1,3 @@
 # AdiayX Bot Website
 
-Preview: https://discord-botlist.de/
+Preview: https://bot.adiayx.tk/
