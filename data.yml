@@ -1,2 +1,0 @@
-- name: GitHub Actions Status Embed for Discord
-  uses: SebastiaanZ/github-status-embed-for-discord@v0.3.0
